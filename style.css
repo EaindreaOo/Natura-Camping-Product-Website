@@ -1,0 +1,462 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   margin: 0;
+   font-family: Inter, sans-serif;
+   font-size: 1rem;
+ }
+
+ .NaturaBanner {
+   background: #D4674C;
+   color: #fff;
+   font-family: Outfit, sans-serif;
+   padding: 0.6rem;
+   text-align: center;
+   display: block;
+   width: auto;
+ }
+
+ .naturanavbar {
+   position: sticky;
+   top: 0;
+   background-color: #DDE5E7;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+   z-index: 1001;
+ }
+
+ #Natura {
+   width: auto;
+   height: 1.8rem;
+
+ }
+
+ .naturanavbar ul {
+   list-style: none;
+   display: flex;
+   padding: 0;
+   margin: 0;
+ }
+
+ .naturanavbar li {
+   margin: 0 0.6rem;
+   display: inline;
+ }
+
+ .iconsnav li {
+   margin: 0.077rem;
+ }
+
+ .naturanavbar li a {
+   color: #D4674C;
+   font-size: 1.6rem;
+   font-family: Outfit, sans-serif;
+   text-decoration: none;
+   font-family: Outfit, sans-serif;
+   padding: 0.41rem;
+
+ }
+
+ .naturanavbar li a:hover {
+   text-decoration: underline solid 0.2rem #D4674C;
+   text-underline-offset: 0.7rem;
+   transition: 0.2s ease;
+ }
+
+ #searchbar {
+   padding: 0.5rem;
+   outline: none;
+   border-radius: 1.5rem;
+   font-size: 1.125rem;
+   color: #D4674C;
+   text-align: left;
+   width: 22rem;
+   font-family: Inter, sans-serif;
+   border: 0.1rem solid #DDE5E7;
+ }
+
+ #searchbar:hover {
+   border: 0.1rem solid #D4674C;
+ }
+
+ .Categoriesdropdown {
+   display: none;
+   position: absolute;
+   top: 3.5rem;
+   left: 10.5rem;
+   background-color: #DDE5E7;
+   width: 12.8rem;
+   border: solid 0.1rem #D4674C;
+   z-index: 1000;
+ }
+
+ .Categoriesdropdown a {
+   padding: 0.5rem;
+   font-size: 1.3rem;
+   border: none;
+   display: block;
+   text-align: center;
+ }
+
+ .naturanavbar ul li:hover .Categoriesdropdown {
+   display: block;
+ }
+
+ .Accountdropdown {
+   display: none;
+   position: absolute;
+   top: 3.6rem;
+   left: 71rem;
+   background-color: #DDE5E7;
+   width: 10rem;
+   border: solid 0.1rem #D4674C;
+
+ }
+
+ .Accountdropdown a {
+   padding: 0.5rem;
+   font-size: 1.3rem;
+   border: none;
+   display: block;
+   text-align: center;
+ }
+
+ #CD a,
+ #AD a {
+   font-size: 1.3rem;
+   display: block;
+   padding: 0.5rem;
+ }
+
+ .naturanavbar ul li:hover .Accountdropdown {
+   display: block;
+ }
+
+ .promoimage {
+   background-image: url(images/Camping\ 3.jpg);
+   background-size: cover;
+   object-fit: cover;
+   background-position: center center;
+   display: flex;
+   height: 30rem;
+
+   justify-content: center;
+   z-index: -1;
+   overflow: hidden;
+ }
+
+ h1 {
+   margin-top: 1rem;
+   color: #D4674C;
+   font-size: 3rem;
+   font-family: Inter, sans-serif;
+   text-align: center;
+
+ }
+
+ .shopnow {
+   padding: 0.8rem 0.8rem;
+   font-family: Outfit, sans-serif;
+   font-size: 1.8rem;
+   color: #DDE5E7;
+   background-color: #D4674C;
+   transition: transform 0.4s ease-in-out;
+   border: solid 0.5rem #DDE5E7;
+   border-radius: 0.7rem;
+   margin-left: 0.5rem;
+   margin-top: 4.4rem;
+ }
+
+ .shopnow:hover {
+   transform: scale(1.1);
+ }
+
+ .wrapper {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   min-height: 30rem;
+   margin-bottom: 1rem;
+ }
+
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   min-width: 20rem;
+   max-height: 20rem;
+   text-align: center;
+   font-family: Inter, sans-serif;
+   margin: 3rem;
+   transition: 0.2s ease-in-out;
+   display: inline-block;
+   overflow: hidden;
+ }
+
+ .card:hover {
+   transform: scale(1.1);
+ }
+
+ .card img {
+   max-width: 14rem;
+   padding: 1rem;
+ }
+
+ .productnames {
+   text-align: center;
+   padding: 2rem;
+   color: #67727E;
+   background: #DDE5E7;
+   margin-bottom: 3rem;
+   margin-top: 4rem;
+
+ }
+
+ .Caption {
+   color: #67727E;
+   padding: 1.4rem;
+   font-size: 1.8rem;
+   text-decoration: underline solid #67727E;
+ }
+ #aboutus
+ {
+  background-color: #DDE5E7;
+  min-height: 60rem;
+  overflow: hidden;
+ }
+ 
+  .whoarewe {
+    display: block;
+   margin: auto;
+   padding: 4rem;
+   margin-bottom: 12.5rem;
+
+  }
+  
+  .whoarewe img {
+    max-width: 53%;
+    
+    float: left;
+    padding-right: 3rem;
+  }
+  
+  #title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: Outfit, sans-serif;
+    color:  #67727E;
+    text-align: left;
+    padding-right: 20rem;
+   
+  }
+  #info
+  {
+    font-size: 1.6rem;
+    font-family: Inter, sans-serif;
+    padding-top: 3rem;
+   text-align: left;
+  }
+   .whatdoweoffer {
+    display: block;
+   margin: auto;
+   padding: 4rem;
+   margin-bottom: 12.5rem;
+
+  }
+  
+  .whatdoweoffer img {
+    max-width: 53%;
+    
+    float: right;
+    padding-left: 3rem;
+   
+  }
+  #title1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: Outfit, sans-serif;
+    color:  #67727E;
+    text-align: left;
+    padding-right: 20rem;
+   
+  }
+  #info1
+  {
+    font-size: 1.6rem;
+    font-family: Inter, sans-serif;
+    padding-top: 3rem;
+   text-align: left;
+  }
+  .footer {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-1%);
+  background-color: #DDE5E7;
+  width: 95%;
+  background: #DDE5E7;
+  border-radius: 0.375rem;
+  font-family: Outfit, sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.footer .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.5rem;
+  padding: 4rem;
+}
+
+.footer-row .footer-col h4 {
+  color: #67727E;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-col .links {
+  margin-top: 1.25rem;
+}
+
+.footer-col .links li {
+  list-style: none;
+  margin-bottom: 0.625rem;
+}
+
+.footer-col .links li a {
+  text-decoration: none;
+  color: #67727E;
+}
+
+.footer-col .links li a:hover {
+  color: #D4674C;
+}
+
+.footer-col p {
+  margin: 1.25rem 0;
+  color: #67727E;
+  max-width: 18.75rem;
+}
+
+.footer-col form {
+  display: flex;
+  gap: 0.3125rem;
+}
+
+.footer-col input {
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  background: none;
+  width: 100%;
+  outline: none;
+  border: 0.0625rem solid #67727E;
+  caret-color: #67727E;
+  color: #67727E;
+  padding-left: 0.7rem;
+}
+.footer-col input::placeholder {
+  color: #67727E;
+  font-family: Outfit, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer-col form button {
+  background: #67727E;
+  outline: none;
+  border: none;
+  padding: 0.625rem 0.625rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+  font-family: Outfit, sans-serif;
+  font-size: 1rem;
+  color: #DDE5E7;
+}
+.footer-col form button:hover {
+  background: #D4674C;
+}
+.footer-col .icons {
+  display: flex;
+  margin-top: 1.875rem;
+  gap: 1.875rem;
+  cursor: pointer;
+}
+.footer-col .icons i {
+  color: #67727E;
+}
+.footer-col .icons i:hover  {
+  color: #D4674C;
+}
+#branding
+{
+  font-family: Outfit, sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  margin-top: 2rem;
+}
+#legalstuff
+{
+  font-family: Inter, sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  color: #67727E;
+}
+#legalstuff:hover
+{
+  text-decoration: underline solid 0.1rem #67727E;
+}
+@media (max-width: 1514px) 
+{
+.naturanavbar li
+{
+  margin-top: 1rem;
+
+  
+}
+.naturanavbar
+{
+  max-height: 5rem;
+}
+#Cart, #Wishlist
+{
+  visibility: hidden;
+}
+}
+@media (max-width: 768px)
+{
+  .footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transform: none;
+  width: 100%;
+  border-radius: 0;
+}
+}
+.footer .footer-row {
+  padding: 1.25rem;
+  gap: 1rem;
+}
+
+.footer-col form {
+  display: block;
+}
+
+.footer-col form :where(input, button) {
+  width: 100%;
+}
+
+.footer-col form button {
+  margin: 0.625rem 0 0 0;
+}
